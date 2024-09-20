@@ -1,0 +1,66 @@
+body{
+	background-color: #303841;
+}
+
+.wheatherbox{
+
+	width: 400px;
+	height: 600px;
+	background: linear-gradient(25deg, cyan, darkcyan);
+	margin-left:580px ;
+	margin-top:120px;
+
+}
+.wheatherapptitle{
+	color: white;
+	font-family: arial;
+	margin-left: 90px;
+	padding-top: 20px;
+}
+
+.weatherimg{
+	margin-left: 120px;
+	height: 150px;
+	width: 150px;
+}
+
+#display{
+	margin-left: 90px;
+	margin-top: 20px;
+	height: 30px;
+	border: none;
+	font-family: arial;
+	font-size: 1em;
+	color: black;
+	width: 200px;
+}
+
+.bttncont{
+	margin-top: 30px;
+	margin-left: 150px;
+
+}
+
+#wheatherbuttn{
+	padding: 10px;
+	font-size: 1em;
+	background-color: white;
+	border: none;
+	box-shadow: 5px 5px 5px black;
+}
+
+#wheatherbuttn:hover{
+	box-shadow: none;
+	cursor: pointer;
+	background-color: orange;
+	color: white;
+
+}
+
+#degree{
+	color: white;
+	font-size: 3em;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: -110px;
+}
